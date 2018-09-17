@@ -37,7 +37,15 @@ p {
 
 .card {
   background: white;
-  max-width: 200px;
-  min-width: 150px;
+  width: 25%;
+  justify-content: space-evenly;
   min-height: 100px;
+  margin: 1em;
+}
+
+.big-card {
+  background: white;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 1em;
 }
