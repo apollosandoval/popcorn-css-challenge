@@ -3,3 +3,41 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+  background: #D4A76A;
+}
+
+header {
+  background: #FFDBAA;
+  color: #553100;
+}
+
+button {
+  background: #805215;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.card {
+  background: white;
+  max-width: 200px;
+  min-width: 150px;
+  min-height: 100px;
+}
