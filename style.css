@@ -41,14 +41,23 @@ button {
   border-color: black;
   margin: 1em;
   padding: 1em;
+  font-size: small;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 h3 {
   text-align: center;
+  margin: 0;
 }
 
 p {
   text-align: left;
+  margin: 0;
 }
 
 .flex-container {
@@ -61,13 +70,14 @@ p {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   background: white;
   width: 20%;
   max-width: 250px;
   min-height: 100px;
   margin: 1em;
   padding: 1em;
+  box-shadow: 0 0 7px;
 }
 
 .big-card {
@@ -78,4 +88,5 @@ p {
   background: white;
   margin: 1em;
   padding: 1em;
+  box-shadow: 0 0 7px;
 }
